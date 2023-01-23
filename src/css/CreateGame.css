@@ -1,0 +1,29 @@
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 175px;
+  width: 350px;
+  background-color: lightgrey;
+  border-radius: 5%;
+  border-style: solid;
+}
+
+.create-game-button{
+  background-color: lightblue; /* Green */
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5%;
+  border-style: solid;
+}

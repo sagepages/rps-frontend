@@ -1,0 +1,129 @@
+.playroom-banner{
+  display: grid;
+  width: 1050px;
+  height: 600px;
+  background-color: grey;
+  border-radius: 5%;
+  border-style: solid;
+}
+
+.player-side{
+  grid-column: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.player-side-result{
+  grid-column: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.divider {
+  grid-column: 2;
+  height: 100%;
+  background-color: black;
+  width: 5px;
+}
+
+.opp-side{
+  grid-column: 3;
+  display: flex;
+  align-items: center;
+}
+
+.opp-side-result{
+  grid-column: 3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.opp-side-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.opp-text{
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.result-text{
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.move-choice{
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+
+}
+
+.option{
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+}
+
+.lds-dual-ring {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+}
+.lds-dual-ring:after {
+  content: " ";
+  display: block;
+  width: 64px;
+  height: 64px;
+  margin: 8px;
+  border-radius: 50%;
+  border: 6px solid #fff;
+  border-color: #fff transparent #fff transparent;
+  animation: lds-dual-ring 1.2s linear infinite;
+}
+@keyframes lds-dual-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.wrapper {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#eee;
+}
+
+.animated-check {
+    height: 10em;
+    width: 10em
+}
+
+.animated-check path {
+    fill: none;
+    stroke: #7ac142;
+    stroke-width: 4;
+    stroke-dasharray: 23;
+    stroke-dashoffset: 23;
+    animation: draw 1s linear forwards;
+    stroke-linecap: round;
+    stroke-linejoin: round
+}
+
+@keyframes draw {
+    to {
+        stroke-dashoffset: 0
+   }
+}

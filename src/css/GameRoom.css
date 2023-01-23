@@ -5,3 +5,15 @@
   width: 100%;
   height: 100%;
 }
+.large-words{
+  font-size: 150px;
+  font-weight: bold;
+}
+
+.win{
+  color: green;
+}
+
+.lose{
+  color: red;
+}
